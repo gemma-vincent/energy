@@ -1,0 +1,25 @@
+{
+  "name": "enargy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/theunit/enARgy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/theunit/enARgy/issues"
+  },
+  "homepage": "https://gitlab.com/theunit/enARgy#README",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^2.0.4",
+    "wemo-client": "^0.14.0"
+  }
+}
